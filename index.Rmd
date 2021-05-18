@@ -1,8 +1,8 @@
 ---
-title: "L'open data pour mon entreprise ?"
+title: "L'open data pour développer mon entreprise ou mon association ?"
 subtitle: ""
-author: "Joël Gombin, Datactivist"
-date: "18 décembre 2019"
+author: "Arthur Sarazin, Datactivist"
+date: "20 mai 2020"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -89,8 +89,6 @@ La médiation de données est aussi fondamentalement une animation de communaut�
 
 2. Pourquoi utiliser les données ouvertes ? 
 
-3. Atelier collaboratif
-  - Recensement des données manipulées au sein de l'entreprise, des sources de données ouvertes adaptées à l'entreprise et des usages potentiels
 
 
 ---
@@ -108,7 +106,6 @@ Vous avez 5 minutes
 
 Vous devez trouver 20 données dans notre environnement immédiat
 
-Pas de recours aux écrans !
 
 .footnote[[source](http://infolabs.io/5-minutes-20-donnees)]
 
@@ -835,94 +832,12 @@ Moteur de recherche créé en 2013 mettant à disposition les taux de réussite 
 
 .center[![synthese](./img/synthese.png)]
 
----
-class: inverse, center, middle
-
-# Atelier collaboratif
-
----
-
-## Méthodologie de l'atelier de travail
-
-- Choix d'un projet et des objectifs stratégiques associés (10 mn)
-- Recensement des données qui vous seraient utiles (45 mn)
-- Recensement des données manipulées au sein de l'entreprise (45 mn) 
-- Recensement des sources de données ouvertes adaptées à l'entreprise et des usages potentiels (45 mn) 
-- Plan d'action (20 mn)
-
----
-
-## Choix d'un projet et des objectifs stratégiques associés
-
----
-
-## Recensement des données qui vous seraient utiles
-
-Réfléchir librement, sans contrainte, être créatif !
-
-(20 mn)
-
----
-
-## Recensement des données qui vous seraient utiles
-
-Restitution et analyse :
-
-- utilité
-- existence
-- disponibilité
-- coût
-- légalité / RGPD
-
-(20 mn)
-
----
-
-## Recensement des données qui vous seraient utiles
-
-Restitution et analyse 
-
-.center[.reduite2[![](./img/matrice1.png)]]
-
----
-
-## Recensement des données manipulées au sein de l'entreprise
-
-- Recensement (20 mn)
-- Restitution (20 mn)
-
----
-
-## Recensement des sources de données ouvertes adaptées à l'entreprise et des usages potentiels
-
-  - Travail de projection sur les données potentielles qui appuieraient l'activité (type de donnée / source) et projection sur usages potentiels & les priorités (20 mn)
-  - Mise en commun (20 mn)
- 
-
----
-
-## Ébauche d'un plan d'action 
-
-- Choisir 2 ou 3 jeux de données
-  - sourcing (où ?)
-  - exploitation (on en fait quoi ?)
-  - collecte (comment ?)
-- Évaluation de la qualité
-  - exactitude
-  - fraîcheur/mise à jour
-  - granularité
-  - ...
-- Restitution
-
-(20 mn)
-
-
 
 ---
 class: invese, center, middle
 
 # Merci !
 
-Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
+Contact : [arthur@datactivi.st](mailto:arthur@datactivi.st)
 
 
