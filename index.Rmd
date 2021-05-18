@@ -12,8 +12,8 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 params:
-  event: IRCE
-  slug: irce/
+  event: DEAS
+  slug: DEAS_Slides/
 ---
 
 layout: true
@@ -25,10 +25,11 @@ layout: true
 
 class: center, middle
 
-Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
+Ces slides en ligne : `r paste0("https://arthursrz.github.io/", params$slug)`
 
-Sources : `r paste0("https://github.com/datactivist/", params$slug)`
+Sources : `r paste0("https://github.com/ArthurSrz/", params$slug)`
 
+DEAS_Slides/#1
 
 Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
