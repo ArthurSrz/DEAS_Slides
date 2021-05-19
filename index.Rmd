@@ -844,34 +844,75 @@ class: inverse, center, middle
 
 ## Equiper sa forge de données : de quoi ai-je besoin pour créer cette application
 
+**2 jeux de données...** 
+
+- [votre base de gestion des demandes de fonds publics](https://airtable.com/shrRrF52DGlZQixu4)
+- [la base aides-entreprises.fr mise en open data](https://data.aides-entreprises.fr/)
+
+*...et 2 outils logiciels*
+
+- [Workbench Data](https://workbenchdata.com/) - Outil de manipulation de données gratuit
+- [Glide](https://www.glideapps.com/) - Outil gratuit de création d'application à partir d'un ou plusieurs jeux de données
+
 ---
 
 ## Définir l'usage avant de penser à la data
+
+#### Pour éviter ça ! : 
+
+.center[![](https://media.giphy.com/media/YWAiayVul0JLq/giphy.gif)]
+
+Cette application servira à tout chef de structure/gestionnaire qui souhaite pouvoir suivre ses demandes de financements comme il suit ses (futurs) client : **avec un tableau de suivi ou CRM.**
 
 ---
 
 ## Récupérer les données ouvertes sur les dispositifs de financements publics
 
+- Les données, sont ici sous la forme de [plusieurs fichiers .csv...](https://data.aides-entreprises.fr/stock)
+
+- ...et sont accompagnées d'[une documentation](https://data.aides-entreprises.fr/documentation) (pour les comprendre)
+
 ---
 
 ## Façonner la donnée à l'image de l'usage 
+
+.pull-right[![](https://media.giphy.com/media/3jiLt1aBGfF37ZmK8a/giphy.gif)]
+.pull-left[- améliorer leur lisibilité...pour les comprendre
+- compiler les données...pour **révéler l'information utile à l'usage**
+- mettre au format de votre jeu de donnée interne
+
+[**Processus de façonnage**](https://app.workbenchdata.com/workflows/144005)]
 
 ---
 
 ## Créer une interface applicative pour naviguer au sein des données
 
+[3 espaces](https://whatthesub.glideapp.io/s)...: 
+- 1 espace pour **visualiser tous les financements disponibles**
+- 1 espace pour **centraliser les contacts**
+- 1 espace pour **suivre les financements actifs**
+
+.center[![](https://raw.githubusercontent.com/ArthurSrz/images/main/Screenshot%202021-05-19%20at%2014.21.34.png)]
+
+...et des connecteurs (dits champs liés) pour assurer la navigation
+
 ---
 
 ## Penser l'ajout et la curation de données 
+
+.center[![](https://media.giphy.com/media/UsB4hCkBUeKfqZ1Jl3/giphy.gif)]
 
 ---
 
 ## Intégrer les données 
 
+.center[![](https://media.giphy.com/media/MQ4bWOjn8C9tT2dzIb/giphy.gif)]
+
 ---
 
 ## Valider le parcours utilisateur de l'application
 
+.center[![](https://media.giphy.com/media/OmK8lulOMQ9XO/giphy.gif)]
 
 
 ---
