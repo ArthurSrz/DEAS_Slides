@@ -29,7 +29,6 @@ Ces slides en ligne : `r paste0("https://arthursrz.github.io/", params$slug)`
 
 Sources : `r paste0("https://github.com/ArthurSrz/", params$slug)`
 
-DEAS_Slides/#1
 
 Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
@@ -38,7 +37,32 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 ![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
 
+---
+## Contexte : le projet européen INTERREG DEAS 
 
+[![](https://raw.githubusercontent.com/ArthurSrz/images/main/DEAS_TUBA%CC%80_training%20OD%20200521.001.jpeg)](https://www.alpine-space.eu/projects/deas/en/home)
+
+---
+## Le partenariat européen : INTERREG DEAS
+
+#### Objectifs :
+
+- Valoriser l'utilisation de l'open data pour les services publics et les entreprises.
+- Augmenter la compétitivité de la région "Alpine" grace à l'exploitation de l'open data dans 3 domaines clés: l'environnement, le tourisme & la culture, la mobilité.
+- Les 12 porteurs du projet souhaitent accélerer la création de services innovants et centrés usagers (habitants, touristes, entrepreneurs) grâce notamment à :
+- Une plateforme commune DEAS, type api.gouv.fr
+- Une méthodologie d'utilisation de l'open data, nourrie de méthodes locales comme l’Open Data Canvas
+- Des pilotes locaux et transnationaux pour créer de nouveaux services.
+
+--- 
+## Le partenariat européen : INTERREG DEAS
+
+[![](https://raw.githubusercontent.com/ArthurSrz/images/main/Screenshot%202021-05-19%20at%2007.03.24.png)](https://www.alpine-space.eu/projects/deas/en/home)
+
+---
+## Le partenariat européen : INTERREG DEAS
+
+[![](https://raw.githubusercontent.com/ArthurSrz/images/main/Screenshot%202021-05-19%20at%2007.03.24.png)](https://www.alpine-space.eu/projects/deas/en/home)
 ---
 ## Qui sommes-nous ?
 
@@ -52,7 +76,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ## Qui sommes-nous ?
 
 
-![](https://www.dropbox.com/s/kicm8kmqal303yc/equipe.jpg?dl=1)
+![](https://raw.githubusercontent.com/ArthurSrz/images/main/Screenshot%202021-05-18%20at%2018.40.13.png)
 
 ---
 ## Qui sommes nous ?
@@ -86,10 +110,11 @@ La médiation de données est aussi fondamentalement une animation de communaut�
 ---
 ## À l'ordre du jour
 
-1. Les données : de quoi parle-t-on ?
+1. Les données, le big data, l'open data: de quoi parle-t-on ?
 
-2. Pourquoi utiliser les données ouvertes ? 
+2. Comment utiliser les données ouvertes au profit de mon entreprise, mon association ? 
 
+3. Data training : manipuler l'open data pour créer son application de recherche de financement
 
 
 ---
@@ -101,11 +126,11 @@ class: inverse, center, middle
 ---
 class:middle, center
 ## Echauffement :
-### 5 minutes, 20 données
+### 3 minutes, 10 données
 
-Vous avez 5 minutes
+Vous avez 3 minutes
 
-Vous devez trouver 20 données dans notre environnement immédiat
+Vous devez trouver 10 données dans notre environnement immédiat 
 
 
 .footnote[[source](http://infolabs.io/5-minutes-20-donnees)]
@@ -117,50 +142,6 @@ class:center,inverse, middle
 ---
 class:center,inverse, middle
 #D'après vous ?
----
-# Le censeur à Rome, ancêtre de la statistique
-.center[.reduite3[![](img/asterix.png)]]
-
-.footnote[Source : *Asterix chez les pictes*, © Albert René 2013]
----
-# Le censeur à Rome, ancêtre de la statistique
-.center[.reduite3[![](img/asterix1.png)]]
-
-.footnote[*Asterix chez les pictes*, © Albert René 2013]
----
-## La statistique : outil de gouvernement et de preuve
-.pull-left[.middle[La statistique est à la fois :
-
-  + **outil de gouvernement** (_Statistik_ - 18e siècle), et
-  
-  
-  + **outil de preuve** (_statistics_ - 19e siècle)]]
-.pull-right[.reduite2[![center](./img/desrosieres1.jpg)]]
----
-  
-## [Quantifier, c'est convenir puis mesurer](http://www.pressesdesmines.com/media/extrait/PourSocioHistExtr.pdf)
-
-.pull-left[
-> Le verbe quantifier est employé ici dans un sens large : **exprimer et
-faire exister sous une forme numérique ce qui, auparavant, était exprimé par
-des mots et non par des nombres**.]
-
-.pull-right[.reduite2[![](img/desrosi.jpeg)]]
-
----
-## [Quantifier, c'est convenir puis mesurer](http://www.pressesdesmines.com/media/extrait/PourSocioHistExtr.pdf)
-
-.center[.reduite3[![](img/asterix2.png)]]
-
-.footnote[*Asterix chez les pictes*, © Albert René 2013]
-
----
-## Quantifier, c'est inscrire et figer une réalité sans cesse mouvante
-
-.center[.reduite3[![](img/asterix3.png)]]
-
-.footnote[*Asterix chez les pictes*, © Albert René 2013]
-
 ---
 ## Etymologie
 
@@ -832,6 +813,65 @@ Moteur de recherche créé en 2013 mettant à disposition les taux de réussite 
 ## Usages potentiels / réutilisation de l'Open Data
 
 .center[![synthese](./img/synthese.png)]
+
+---
+class: inverse, center, middle
+
+# .red[Data Training]
+## Créer son application de recherche de financement grâce à l'open data
+
+---
+
+## WhatTheSub
+[Une application ](https://whatthesub.glideapp.io/) pour optimiser la recherche de financements publics grâce à l'open data
+
+.center.reduite[![](https://raw.githubusercontent.com/ArthurSrz/images/main/Screenshot%202021-05-19%20at%2007.36.03.png)]
+
+
+---
+## Au programme
+
+- Equiper sa forge de données : de quoi ai-je besoin pour créer cette application
+- Définir l'usage avant de penser à la data
+- Récupérer les données ouvertes sur les dispositifs de financements publics
+- Façonner la donnée à l'image de l'usage 
+- Créer une interface applicative pour naviguer au sein des données
+- Penser l'ajout et la curation de données 
+- Intégrer les données 
+- Valider le parcours utilisateur de l'applications
+
+---
+
+## Equiper sa forge de données : de quoi ai-je besoin pour créer cette application
+
+---
+
+## Définir l'usage avant de penser à la data
+
+---
+
+## Récupérer les données ouvertes sur les dispositifs de financements publics
+
+---
+
+## Façonner la donnée à l'image de l'usage 
+
+---
+
+## Créer une interface applicative pour naviguer au sein des données
+
+---
+
+## Penser l'ajout et la curation de données 
+
+---
+
+## Intégrer les données 
+
+---
+
+## Valider le parcours utilisateur de l'application
+
 
 
 ---
