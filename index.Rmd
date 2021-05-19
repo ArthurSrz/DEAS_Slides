@@ -887,7 +887,7 @@ Cette application servira à tout chef de structure/gestionnaire qui souhaite po
 
 ## Créer une interface applicative pour naviguer au sein des données
 
-[3 espaces](https://whatthesub.glideapp.io/s)...: 
+[3 espaces](https://whatthesub.glideapp.io/ss)...: 
 - 1 espace pour **visualiser tous les financements disponibles**
 - 1 espace pour **centraliser les contacts**
 - 1 espace pour **suivre les financements actifs**
